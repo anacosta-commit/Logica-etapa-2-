@@ -1,0 +1,18 @@
+programa
+{
+	inclua biblioteca Util --> u
+	
+	funcao inicio()
+	{
+
+	inteiro valor_sorteado
+	
+		valor_sorteado= u.sorteia(1, 100)
+
+		escreva("Sorteando... \n")
+
+		u.aguarde(5000)
+
+		escreva("O número sorteado é:", valor_sorteado)
+	}
+}
