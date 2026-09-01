@@ -1,0 +1,23 @@
+programa
+{
+	inclua biblioteca Util --> u
+	inclua biblioteca Matematica --> m
+	
+	funcao inicio()
+	{
+		real numero, elevado, raiz
+
+		escreva("Escreva um número para elevar \n")
+		leia(numero)
+
+		elevado = m.potencia(numero, 2)
+
+		escreva("O resultado foi:", elevado, " Estamos fazendo a raiz quadrada do número, aguarde \n")
+
+		u.aguarde(4000)
+
+		raiz = m.raiz(elevado, 2)
+
+		escreva("O resultado foi:", raiz)
+	}
+}
