@@ -1,0 +1,18 @@
+programa
+{
+	inclua biblioteca Texto --> t
+	
+	funcao inicio()
+	{
+		cadeia palavra, palavra_grande
+		inteiro numero
+
+		escreva("Escreva uma palavra \n")
+		leia(palavra)
+
+		numero = t.numero_caracteres(palavra)
+		palavra_grande = t.caixa_alta(palavra)
+
+		escreva("O número de letras é:", numero, " e a palavra em maiúscula é:", palavra_grande)
+	}
+}
